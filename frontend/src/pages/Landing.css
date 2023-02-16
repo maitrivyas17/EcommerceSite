@@ -1,0 +1,42 @@
+.landing-page {
+    height: 100vh;
+    background: url('./../assets/images.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #000a;
+}
+
+.heading-container {
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.heading {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.heading-sub {
+    font-size: larger;
+}
+
+.login-btns {
+    margin: 2rem auto;
+    display: flex;
+    gap: 2rem;
+}
